@@ -1,0 +1,15 @@
+{
+  "extends": ["next", "prettier"],
+  "rules": {
+    "strict": "error",
+    "eqeqeq": "error",
+    "eol-last": "error",
+    "no-multiple-empty-lines": "error",
+    "no-undefined": "error",
+    "no-unused-vars": "error",
+    "indent": ["warn", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "object-curly-spacing": ["warn", "always"]
+  }
+}
